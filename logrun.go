@@ -33,7 +33,7 @@ func SetLevel(level string) {
 	case "debug":
 		log.SetLevel(log.DebugLevel)
 	case "info":
-		log.SetLevel(log.DebugLevel)
+		log.SetLevel(log.InfoLevel)
 	case "warn":
 		log.SetLevel(log.WarnLevel)
 	case "error":
